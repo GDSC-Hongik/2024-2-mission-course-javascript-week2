@@ -376,3 +376,28 @@ fetch("https://jsonplaceholder.typicode.com/posts/1", {
   .then((response) => response.json())
   .then((data) => console.log(data));
 ```
+
+# 미션2
+```js
+fetch(url){
+  .then((response) =>{
+
+  })
+}
+```
+여기서 response는 일련의 메서드가 있는 객체이다. 반환된 객체를 JSON으로 전환하려면, json() 메소드를 사용해야 한다.
+
+함수 안에 data와 동일한 값의 변수를 생성하고, 각 작성자에 대해 이름을 표시하는 list item을 생성하기 위해 map() 메서드를 사용한다.
+```js
+ fetch(url)
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      let authors = data;
+
+      authors.map(function(author) {
+
+      });
+    })
+```
