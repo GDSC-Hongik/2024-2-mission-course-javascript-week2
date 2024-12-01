@@ -1,0 +1,33 @@
+.frontier{
+    width: 150px;
+    height: auto;
+    font-size: 17px;
+    background-color: black;
+    color: aqua;
+    border-style: solid;
+    border-radius: 40px 0px 0px 40px;
+    border-color: white;
+    text-align: center;
+    margin: auto;
+}
+.button{
+    border-color: rgb(255, 255, 255);
+    color: aqua;
+    background-color: black;
+    font-size: 16px;
+    border-radius:0px 40px 40px 0px;
+}
+.button2{
+    border-color: black;
+    color: aqua;
+    background-color: black;
+    font-size: 15px;
+    border-radius:40px 40px 40px 40px;
+}
+.backgr{
+    background-image: url("./assets/myStarPhoto3.jpg");
+    height: 100vh;
+}
+.white{
+    color: white;
+}
