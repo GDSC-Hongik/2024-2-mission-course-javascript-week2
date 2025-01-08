@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Image from "./mongmo.jpg"
+import Image from "./mongmo.png"
 import Button from "./Button";
 
 function Picture() {
@@ -12,7 +12,7 @@ function Picture() {
       <img
         src={Image}
         alt="Favorite"
-        style={{ width: "300px", height: "300px", margin: "20px 0" }}
+        style={{ width: "30%", height: "auto", margin: "20px 0" }}
       />
       <div>
         <Button label="Back to Home" onClick={() => navigate("/")} />
