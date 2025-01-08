@@ -9,7 +9,6 @@ function Blog() {
     <div>
       <h1>Blog Page</h1>
       <p>Welcome to the blog page!</p>
-      <Button label="Back to Home" onClick={() => navigate("/")} />
       <div>
         <a
         href="https://hi-minji.tistory.com/"
@@ -19,6 +18,7 @@ function Blog() {
             tistory
         </a>
       </div>
+      <Button label="Back to Home" onClick={() => navigate("/")} />
     </div>
   );
 }

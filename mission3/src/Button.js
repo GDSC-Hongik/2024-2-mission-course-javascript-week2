@@ -7,6 +7,7 @@ function Button({ label, onClick }) {
       style={{
         padding: "10px 20px",
         margin: "10px",
+        marginTop: "20px",
         cursor: "pointer",
         backgroundColor: "#007BFF",
         color: "#fff",
